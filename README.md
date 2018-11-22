@@ -2,7 +2,7 @@
 
 Unpack, explore (in HTML), edit, and repack .esd files from Dark Souls 1.
 
-Edit and repack supported for all files except enemyCommon.esd, which has two state tables (coming sometime).
+Edit and repack supported for menu (`menu\*.menuesdbnd`) and talk (`script\talk\*.talkesdbnd`) ESD files only. The character files (`chr\enemyCommon.esd`, `chr\c0000.esd`, and each copy of dummy.esd in `chr\*.chresdbnd`) have two state tables that haven't been implemented yet (coming sometime).
 
 Open `unpack_esd.py`, specify your file path at the bottom, and run. Example methods to convert the file to a 
 fully-interlinked HTML, edit state fields, and repack an edited file are shown. Obviously, be careful not to 
